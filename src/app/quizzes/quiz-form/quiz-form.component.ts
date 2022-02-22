@@ -43,6 +43,7 @@ export class QuizFormComponent implements OnInit {
     console.log(quizToCreate)
     quizToCreate.questions=[];
 
+    quizToCreate.creationDate= new Date()
     // Do you need to log your object here in your class? Uncomment the code below
     // and open your console in your browser by pressing F12 and choose the tab "Console".
     // You will see your quiz object when you click on the create button.
